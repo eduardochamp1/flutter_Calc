@@ -47,6 +47,24 @@ class _HomePageState extends State<HomePage> {
                 btCalc(cor: Colors.blueAccent, texto: '-'),
               ],
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                btCalc(cor: Colors.grey, texto: '3'),
+                btCalc(cor: Colors.grey, texto: '2'),
+                btCalc(cor: Colors.grey, texto: '1'),
+                btCalc(cor: Colors.blueAccent, texto: 'x'),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                btCalc(cor: Colors.grey, texto: '0'),
+                btCalc(cor: Colors.grey, texto: 'AC'),
+                btCalc(cor: Colors.grey, texto: '='),
+                btCalc(cor: Colors.blueAccent, texto: '/'),
+              ],
+            ),
           ],
         ));
   }
